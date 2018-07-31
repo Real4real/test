@@ -1,0 +1,134 @@
+$c: #f9c423;
+#slider {
+    margin: 10px;
+    width: 149px;
+    top: -32px;
+    left: 52px;
+}
+
+.ui-widget.ui-widget-content { /*обводка*/
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { /*маленькая хуйня*/
+    border-radius: 14px;
+
+}
+
+.ui-slider-horizontal { /*толщина длинной хуеты*/
+    height: 0.1em;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+
+    border: 1px solid yellow;
+    /*background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;*/
+    background-color: yellow;
+    font-weight: normal;
+    color: #555555;
+
+} /*коректор маленькой хуйни*/
+.ui-slider-horizontal .ui-slider-handle { /*коректор маленькой хуйни*/
+    top: -0.6em;
+    margin-left: 0em;
+    margin-right: -5em;
+}
+.ui-slider .ui-slider-handle {  /*коректор маленькой хуйни*/
+
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+
+
+.dirCont {
+    // background-color: green;
+    position: absolute;
+    top: 75px;
+    left: 777px;
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+    display: none;
+    z-index: 1000;
+
+    li {
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 0 10px 0 0;
+            padding: 0 0 0 10px;
+            width: 100px;
+        }
+        .s:hover {
+            color: $c;
+            text-decoration:underline;
+        }
+
+        
+    }
+    
+}
+
+.l {
+    float: left;
+    background-color: #00000080;
+    margin: 0 0px 0 0;
+    border-radius: 0px;
+    width: 130px;
+    li {
+        padding: 12px 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+}
+.m1 {
+    border-radius: 7px 7px 0 7px;
+    .actives {
+            background-color: #e0ad15;
+            border-radius: 7px 0 0 0;
+            a {
+                color: black;
+            }
+        }
+}
+.m2 {
+  border-radius: 7px 7px 0px 0;  
+  .actives {
+            background-color: #e0ad15;
+            border-radius: 0px 0px 0 0;
+            a {
+                color: black;
+            }
+        }
+}
+.m3 {
+  border-radius: 7px 7px 0px 0; 
+  .actives {
+            background-color: #e0ad15;
+            border-radius: 0px 0px 0 0;
+            a {
+                color: black;
+            }
+        } 
+}
+.m4 {
+  border-radius: 7px 7px 7px 0; 
+  .actives {
+            background-color: #e0ad15;
+            border-radius: 0px 7px 0 0;
+            a {
+                color: black;
+            }
+        }
+}

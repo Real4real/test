@@ -1,0 +1,483 @@
+/*# sourceMappingURL=style.scss.map */
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+h2 {
+  color: green;
+}
+
+.mainContainer {
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 900px;
+  /*main content*/
+  /*end of main content*/
+  /*adaptive strike*/
+}
+.mainContainer .headerContainer {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.749;
+  /*menu*/
+  /*end of menu*/
+  /*logo*/
+  /*end of logo*/
+}
+.mainContainer .headerContainer .icon {
+  display: none;
+  width: 45px;
+  height: 35px;
+  position: relative;
+  cursor: pointer;
+}
+.mainContainer .headerContainer ul {
+  list-style-type: none;
+  margin: 30px 200px 0 0;
+  padding: 0;
+  float: right;
+}
+.mainContainer .headerContainer li {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+.mainContainer .headerContainer li a {
+  font-family: Myriad Pro;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.mainContainer .headerContainer li a:hover {
+  color: yellow;
+}
+.mainContainer .headerContainer .logoContainer {
+  width: 251px;
+  float: left;
+  margin: 15px 0 0 202px;
+}
+.mainContainer .mainContent {
+  width: 1020px;
+  height: 560px;
+  margin: 120px auto 0 auto;
+  /*tabs*/
+  /* slider */
+  /* slider */
+  /*end of tabs*/
+  /* Customize the label (the container) */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+.mainContainer .mainContent .tabs {
+  background-color: #041f31;
+  color: white;
+  height: 50px;
+}
+.mainContainer .mainContent .tabs .tab {
+  float: left;
+  padding: 1px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 50px;
+  width: 255px;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+}
+.mainContainer .mainContent .tabs .tab p {
+  text-align: center;
+}
+.mainContainer .mainContent .tabs .tab img {
+  margin: 0 11px 0 0;
+}
+.mainContainer .mainContent .tabs .active {
+  background-color: #ffcd34;
+  color: #010101;
+}
+.mainContainer .mainContent .tabs .tab:hover {
+  background-color: #ffcd34;
+  color: #010101;
+  cursor: pointer;
+}
+.mainContainer .mainContent .tab_item .dopPoisk {
+  color: white;
+}
+.mainContainer .mainContent .tab_item a {
+  color: black;
+  float: left;
+  text-decoration: none;
+  font-family: Myriad Pro;
+}
+.mainContainer .mainContent .tab_item a img {
+  float: left;
+  margin: 3px 4px 0 6px;
+}
+.mainContainer .mainContent .dodInfo {
+  float: left;
+  margin: 10px 0px 0 62px;
+  padding: 0 0 0 0;
+  left: -30px;
+  position: relative;
+  background-color: #041f31cc;
+  width: 276px;
+  height: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.mainContainer .mainContent .dodInfo p {
+  color: white;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+.mainContainer .mainContent .dodInfo p img {
+  width: 15px;
+  position: relative;
+  right: 14px;
+  float: right;
+  top: 5px;
+}
+.mainContainer .mainContent .daysCont {
+  background-color: #041f31cc;
+  width: 280px;
+  height: 120px;
+  position: absolute;
+  right: 576px;
+  top: 322px;
+  z-index: 10000;
+  display: none;
+  border-radius: 8px;
+}
+.mainContainer .mainContent .daysCont p {
+  color: white;
+  padding: 0 0 0 20px;
+  font-family: Myriad Pro;
+}
+.mainContainer .mainContent .form-controlmin {
+  position: relative;
+  margin: 20px 0px 0 60px;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  width: 55px;
+  height: 21px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #5a6a74;
+  left: -57px;
+  top: -7px;
+}
+.mainContainer .mainContent .form-controlmax {
+  position: relative;
+  margin: 20px 0px 0 60px;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  width: 55px;
+  height: 21px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #5a6a74;
+  left: 30px;
+  top: -7px;
+}
+.mainContainer .mainContent .group1 {
+  left: -120px;
+  top: 40px;
+  background-color: #193346cc;
+  width: 505px;
+  height: 257px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px;
+  display: none;
+}
+.mainContainer .mainContent .group2 {
+  left: -20px;
+  top: -217px;
+  float: right;
+  background-color: #193346cc;
+  width: 425px;
+  height: 177px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px;
+  display: none;
+}
+.mainContainer .mainContent .group2 .rightC {
+  width: 180px;
+  right: 30px;
+}
+.mainContainer .mainContent .typeTour {
+  color: white;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 0px;
+  padding: 0 0 0 27px;
+  border-bottom: 2px solid white;
+  font-family: Myriad Pro;
+}
+.mainContainer .mainContent .checkboxCont {
+  color: white;
+}
+.mainContainer .mainContent .checkboxCont p {
+  position: relative;
+  float: left;
+  display: block;
+  text-transform: uppercase;
+}
+.mainContainer .mainContent .checkbox {
+  width: 22px;
+  background: #FFF;
+}
+.mainContainer .mainContent .leftC {
+  width: 230px;
+  float: left;
+}
+.mainContainer .mainContent .rightC {
+  width: 150px;
+  float: right;
+  position: relative;
+  right: 120px;
+}
+.mainContainer .mainContent .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin: 19px 0 12px 29px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mainContainer .mainContent .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.mainContainer .mainContent .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #fde908;
+}
+.mainContainer .mainContent .container input:checked ~ .checkmark {
+  background-color: #fde908;
+}
+.mainContainer .mainContent .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.mainContainer .mainContent .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.mainContainer .mainContent .container .checkmark:after {
+  left: 6px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.mainContainer .mainContent .buttonItem {
+  background-color: aqua;
+  border: 0;
+  border-radius: 30px;
+  width: 130px;
+  height: 40px;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  text-decoration: bold;
+  text-transform: uppercase;
+  margin: 90px 0px 0 0;
+  left: 460px;
+  position: relative;
+  display: none;
+}
+.mainContainer .poisk2 {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 1096px) {
+  .mainContainer .dirCont {
+    top: 185px;
+    left: 247px;
+  }
+  .mainContainer .dirCont .l {
+    width: 170px;
+  }
+  .mainContainer .mainContent {
+    width: 100%;
+  }
+  .mainContainer .mainContent .group1 {
+    left: 150px;
+    top: 40px;
+    width: 746px;
+  }
+  .mainContainer .mainContent .group2 {
+    left: -125px;
+    top: 63px;
+    width: 746px;
+  }
+  .mainContainer .mainContent .buttonItem {
+    margin: 260px 0px 0 0;
+    left: 460px;
+  }
+  .mainContainer .mainContent .wrapper {
+    width: 100%;
+  }
+  .mainContainer .mainContent .tabs {
+    background-color: #041f31;
+    color: white;
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer .mainContent .tabs .tab {
+    float: left;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 190px;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+  }
+  .mainContainer .mainContent .dodInfo {
+    margin: 30px 0px 0 62px;
+    left: 80px;
+    width: 758px;
+  }
+  .mainContainer .mainContent .dopPoisk {
+    top: 430px;
+    left: 150px;
+    position: absolute;
+  }
+  .mainContainer .headerContainer {
+    height: 75px;
+    position: absolute;
+    z-index: 1000;
+  }
+  .mainContainer .headerContainer ul {
+    display: none;
+    margin: 71px 442px 0 0;
+  }
+  .mainContainer .headerContainer li {
+    display: block;
+    text-align: center;
+  }
+  .mainContainer .headerContainer .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 20%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500px) {
+  .mainContainer .dirCont {
+    top: 149px;
+    left: 17px;
+  }
+  .mainContainer .dirCont .l {
+    width: 170px;
+  }
+  .mainContainer .mainContent {
+    width: 100%;
+  }
+  .mainContainer .mainContent .wrapper {
+    width: 353px;
+    margin: 0 auto;
+  }
+  .mainContainer .mainContent .group1 {
+    left: 150px;
+    top: 40px;
+    width: 746px;
+  }
+  .mainContainer .mainContent .group2 {
+    left: -125px;
+    top: 63px;
+    width: 746px;
+  }
+  .mainContainer .mainContent .buttonItem {
+    margin: 260px 0px 0 0;
+    left: 460px;
+  }
+  .mainContainer .mainContent .tabs {
+    background-color: #041f31;
+    color: white;
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer .mainContent .tabs .tab {
+    float: left;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 88px;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+  }
+  .mainContainer .mainContent .tabs .tab p {
+    font-size: 0px;
+  }
+  .mainContainer .mainContent .tabs .tab_content {
+    width: 300px;
+  }
+  .mainContainer .mainContent .dodInfo {
+    margin: 20px 0px 0 62px;
+    left: -62px;
+    width: 358px;
+  }
+  .mainContainer .mainContent .dopPoisk {
+    top: 100px;
+    left: -670px;
+    position: relative;
+  }
+  .mainContainer .headerContainer {
+    height: 75px;
+    position: absolute;
+    z-index: 1000;
+  }
+  .mainContainer .headerContainer ul {
+    display: none;
+    margin: 21px 172px 0 0;
+  }
+  .mainContainer .headerContainer li {
+    display: block;
+    text-align: center;
+  }
+  .mainContainer .headerContainer .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+  .mainContainer .headerContainer .logoContainer {
+    margin: 15px 0 0 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
